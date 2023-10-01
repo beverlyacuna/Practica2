@@ -1,0 +1,11 @@
+#piePagina{
+    position: relative;
+    height: 7%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: lightskyblue;
+    text-align: center;
+    padding-top: 25px;
+}
+

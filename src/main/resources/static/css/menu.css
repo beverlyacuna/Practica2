@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.hover{
+    background-color: lightskyblue;
+    height: 12%;
+    top: 0;
+    width: 100%;
+    position: fixied;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 30px;
+    line-height: 90px;
+    
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 14px;
+    margin: 0 14px;
+    line-height: 90px;
+    width: max-content;
+}
+.nav-menu-link{
+    padding: 2px 4px;
+    border-radius: 10px;
+}
+.nav-menu-link:hover{
+    background-color: cyan;
+    transition: 0.7s
+}
+
+
+
+
+
+
+
